@@ -1,0 +1,27 @@
+{
+  "author": "FrancescoCerio <francescocerio98@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.tsx",
+  "name": "react-native-swipe-tales",
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-native": ">=0.68.0"
+  },
+  "repository": "https://FrancescoCerio@github.com/FrancescoCerio/react-native-swipe-tales.git",
+  "types": "src/index.d.ts",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-native": "^0.66.16",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "2.8.8",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
