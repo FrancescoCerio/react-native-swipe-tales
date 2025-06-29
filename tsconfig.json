@@ -4,12 +4,21 @@
     "declaration": true,
     "esModuleInterop": true,
     "jsx": "react-native",
-    "lib": ["ESNext"],
+    "lib": [
+      "ESNext"
+    ],
     "module": "ESNext",
     "moduleResolution": "node",
-    "outDir": "dist",
     "target": "ESNext",
+    "types": [
+      "react",
+      "react-native"
+    ]
   },
-  "include": ["src"],
-  "exclude": ["node_modules"]
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
